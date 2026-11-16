@@ -24,13 +24,13 @@ A backend service built with FastAPI and Django ORM that receives images, proces
    cd ai-image-summarizer
 
 
-2. Install dependencies:
-
-pip install fastapi uvicorn openai python-dotenv python-multipart django
+2. **Install dependencies:**
+   ```bash
+   pip install fastapi uvicorn openai python-dotenv python-multipart django
 
 
 3. Set up environment variables:
-Create a .env file in the root directory and add your OpenRouter API key:
+   Create a .env file in the root directory and add your OpenRouter API key:
 OPENROUTER_API_KEY=your_openrouter_api_key_here
 
 
@@ -40,6 +40,7 @@ python manage.py migrate
 
 5. Run the FastAPI server:
 uvicorn main:app --reload --port 8080
+
 
 
 6. Access the API documentation:
