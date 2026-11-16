@@ -25,6 +25,7 @@ A backend service built with FastAPI and Django ORM that receives images, proces
 
 
 2. Install dependencies:
+
 pip install fastapi uvicorn openai python-dotenv python-multipart django
 
 
