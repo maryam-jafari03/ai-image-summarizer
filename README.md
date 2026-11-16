@@ -30,8 +30,9 @@ A backend service built with FastAPI and Django ORM that receives images, proces
 
 
 3. Set up environment variables:
+   ```bash
    Create a .env file in the root directory and add your OpenRouter API key:
-OPENROUTER_API_KEY=your_openrouter_api_key_here
+   OPENROUTER_API_KEY=your_openrouter_api_key_here
 
 
 4. Apply database migrations:
