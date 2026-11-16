@@ -30,18 +30,19 @@ A backend service built with FastAPI and Django ORM that receives images, proces
 
 
 3. Set up environment variables:
-   ```bash
    Create a .env file in the root directory and add your OpenRouter API key:
+   ```bash
    OPENROUTER_API_KEY=your_openrouter_api_key_here
 
 
 4. Apply database migrations:
-python manage.py migrate
+   ```bash
+   python manage.py migrate
 
 
 5. Run the FastAPI server:
-uvicorn main:app --reload --port 8080
-
+   ```bash
+   uvicorn main:app --reload --port 8080
 
 
 6. Access the API documentation:
